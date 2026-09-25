@@ -32,15 +32,12 @@ HTML :
             -> Any tags having both opening and closing tags is called as a Paired tags 
                Ex: 
                   1. All Heading tags 
-                      
-                      </body>
-                          <h1>Heading 1</h1>
-                          <h2>Heading 2</h2>
-                          <h3>Heading 3</h3>
-                          <h4>Heading 4</h4>     
-                          <h5>Heading 5</h5>
-                          <h6>Heading 6</h6>
-                       </html> 
+                        <h1>Heading 1</h1>
+                        <h2>Heading 2</h2>
+                        <h3>Heading 3</h3>
+                        <h4>Heading 4</h4>     
+                        <h5>Heading 5</h5>
+                        <h6>Heading 6</h6> 
                   2. Formatting tags     
                        i. <b></b>               -> font bold
                        ii. <strong></strong>    -> font bold  
@@ -55,3 +52,55 @@ HTML :
                        xi. <strick></strick>    ->                  
                   3. Other tags 
                      -> Ex : <p></p> , <div></div> , <span></span> , all list tags , media tags , semantic tags
+   2. Unpaired tags/ Self Closing Tags:
+   ----------------------------------
+       -> Any tags having only opening tags
+        Ex:
+          <br> - break the line , <hr> - underline , <input> , <col>, <img> ..etc
+
+   Attributes in HTML:
+   ------------------
+      -> Attributes are the additional information given to the tags
+      -> Attributes are always in opening tag (static tag)
+      -> most of the Attributs are key and value Pair
+         Ex: 
+           <input type="password"  required placeholder="Enter your name"> 
+           <p style="color:red" id="para-container" align="center"> content </p>     
+
+   HTML Elements:
+   -------------
+      -> opening tag , closing tag, and content together is called as Element        
+
+     Types:
+       1. Block levl elements
+           -> Any elements which will consumes entire width of the browsers
+           Ex: 
+             all heading tags , <div></div>, <p></p> , <li></li> , semantic tags 
+       2. Inline level elements 
+           -> Any elements which will consumes only content width
+           ex: all formatting tag, <span></span>, <input>, <img> , <a></a>
+   List In HTML:
+   ------------
+      ->    list are used to display items in order(numberings) or unordered(symbolic) format
+       Types:
+       =-----
+        1. Ordered list
+           -> In HTML <ol> </ol> tag represents the order list
+           -> <ol></ol> contains <li></li> (list items)
+
+           ordered list Attributs:
+           ----------------------
+           1. type => 1, A, a, i, i
+           2. start => numberings
+           3. reverse
+
+        2. Unordered list
+           -> In HTML <ul> </ul> tag represents the unordered list
+           -> <ul></ul> contains <li></li> (list items)
+
+           Unordered list Attributes:
+           -------------------------
+           1. type => none , circle , square , disc
+           
+        3. Description/ definition list
+        4. Nested list     
