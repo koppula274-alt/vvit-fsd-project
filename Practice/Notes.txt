@@ -101,6 +101,37 @@ HTML :
            Unordered list Attributes:
            -------------------------
            1. type => none , circle , square , disc
-           
+
         3. Description/ definition list
-        4. Nested list     
+            1. <dl></dl> -> description list
+            2. <dt></dt> -> description term
+            3. <dd></dd> -> description data
+        4. Nested list    
+
+   Ecommerce Application:
+   ----------------------
+      ->       
+
+
+
+semantic tags :
+-------------
+  ->  <nav></nav>
+      <header></header>
+      <footer></footer>
+      <section></setion>
+      <main></main>
+      <article></article>
+      <aside></aside>
+      <figure></figure>
+      <em></em>
+      <strong></strong>
+      <details></details>     
+
+ felx properties: 
+ ----------------
+   1. display: felx
+   2. flex-direction : row, column, row-revwrse,  column-reverse
+   3. flex-wrap : no-wrap, wrap, wrap-reverse
+   4. justify-content: start, left, end, right, center, space-between, space-evenly, space-around 
+   5. align-items : baseline, center, end      
